@@ -225,7 +225,9 @@ function App() {
         <s.SpacerSmall />
 
         <s.Container flex={1} jc={"center"} ai={"center"}>
-            <StyledImg alt={"example"} src={"/config/images/ex.gif"} />
+            <video width="150" height="150" autoplay={"true"} loop={"true"} muted={"true"}>
+      <source src="config/videos/Doge.mp4" type="video/mp4" ></source>
+</video>
             
           </s.Container>
 
