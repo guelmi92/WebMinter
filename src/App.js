@@ -15,10 +15,10 @@ export const StyledButton = styled.button`
   background-color: var(--secondary);
   padding: 10px;
   font-family: coder;
-  font-size: 15px;
+  font-size: 20px;
   font-weight: bold;
   color: var(--test-color3);
-  width: 180px;
+  width: 150px;
   cursor: pointer;
   box-shadow: 0px 6px 0px -2px rgba(250, 250, 250, 0.3);
   -webkit-box-shadow: 0px 6px 0px -2px rgba(250, 250, 250, 0.3);
@@ -344,7 +344,7 @@ function App() {
                         getData();
                       }}
                     >
-                      Connect to Metamask
+                      Connect
                     </StyledButton>
                     {blockchain.errorMsg !== "" ? (
                       <>
