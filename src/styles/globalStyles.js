@@ -66,13 +66,13 @@ export const TextSubTitle = styled.p`
 
 export const TextDescription = styled.p`
   color: var(--primary-text);
-  font-size: 25px;
+  font-size: 20px;
   line-height: 1.6;
 `;
 
 export const TextDescription1 = styled.p`
   color: var(--test-color2);
-  font-size: 25px;
+  font-size: 20px;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   line-height: 1.6;
   animation: blinker 1s linear infinite;
