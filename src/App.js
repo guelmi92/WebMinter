@@ -188,8 +188,8 @@ function App() {
 
   const incrementMintAmount = () => {
     let newMintAmount = _mintAmount + 1;
-    if (newMintAmount > 15) {
-      newMintAmount = 15;
+    if (newMintAmount > 5) {
+      newMintAmount = 5;
     }
     setMintAmount(newMintAmount);
   };
@@ -227,7 +227,7 @@ function App() {
         style={{ padding: 24, backgroundColor: "var(--test-color3)" }}
         image={CONFIG.SHOW_BACKGROUND ? "/config/images/bg.webp" : null}
       >
-      <StyledLogo alt={"logo"} src={"/config/images/logo.webp"} />
+      <StyledLogo alt={"logo"} src={"/config/images/logo.png"} />
         
         
         
@@ -429,7 +429,7 @@ function App() {
           <s.TextDescription
             style={{
               textAlign: "center",
-              color: "var(--accent-text)",
+              color: "var(--test-color1)",
             }}
           >
             Please make sure you are connected to the right network (
@@ -440,7 +440,7 @@ function App() {
           <s.TextDescription
             style={{
               textAlign: "center",
-              color: "var(--accent-text)",
+              color: "var(--test-color1)",
             }}
           >
             Set the correct gas limit from Metamask to
