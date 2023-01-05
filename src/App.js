@@ -316,7 +316,7 @@ function App() {
                 <s.TextDescription1
                   style={{ textAlign: "center", color: "var(--test-color2" }}
                 >
-                  (First 1000 are free)
+                  (All NFTs are free)
                 </s.TextDescription1>
                 <s.SpacerXSmall />
                 <s.TextDescription
